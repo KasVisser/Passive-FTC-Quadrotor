@@ -10,7 +10,7 @@
 
 %% add to path
 addPathFtc();
-clc_clear;
+%clc_clear;
 
 %% rotor failure parameters
 failure_time_mot_1      = 1000;
@@ -23,7 +23,7 @@ failure_time_mot_4      = 1000;
 simin = automatedStickCommands( );
 
 %% load physical copter parameters
-copter = copterLoadParams( 'copter_params_Minnie_AIAA_JGCD_2022' );
+copter = copterLoadParams( 'copter_params_Jolt_Avular.m' );
 
 %% environment parameters
 envir = envirLoadParams('params_envir','envir',0);

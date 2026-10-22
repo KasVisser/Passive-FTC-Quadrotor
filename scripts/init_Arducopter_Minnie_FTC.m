@@ -10,7 +10,7 @@
 
 %% add to path
 addPathFtc();
-clc_clear;
+%clc_clear;
 
 %% controller parameters
 % load parameters
